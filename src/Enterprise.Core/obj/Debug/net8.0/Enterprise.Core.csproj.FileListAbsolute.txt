@@ -1,0 +1,13 @@
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\bin\Debug\net8.0\Enterprise.Core.deps.json
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\bin\Debug\net8.0\Enterprise.Core.dll
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\bin\Debug\net8.0\Enterprise.Core.pdb
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\Enterprise.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\Enterprise.Core.AssemblyInfoInputs.cache
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\Enterprise.Core.AssemblyInfo.cs
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\Enterprise.Core.csproj.CoreCompileInputs.cache
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\Enterprise.Core.sourcelink.json
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\Enterprise.Core.dll
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\refint\Enterprise.Core.dll
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\Enterprise.Core.pdb
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\ref\Enterprise.Core.dll
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Core\obj\Debug\net8.0\Enterprise.Core.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I4hgg1+X9w4=",
+  "success": true,
+  "projectFilePath": "D:\\New folder (2)\\csharp-automation-framework\\src\\Enterprise.Core\\Enterprise.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\selenium.webdriver\\4.47.0\\selenium.webdriver.4.47.0.nupkg.sha512"
+  ],
+  "logs": []
+}

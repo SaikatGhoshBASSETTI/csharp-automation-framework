@@ -1,0 +1,16 @@
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\bin\Debug\net8.0\Enterprise.Pages.deps.json
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\bin\Debug\net8.0\Enterprise.Pages.dll
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\bin\Debug\net8.0\Enterprise.Pages.pdb
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\bin\Debug\net8.0\Enterprise.Core.dll
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\bin\Debug\net8.0\Enterprise.Core.pdb
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterprise.Pages.csproj.AssemblyReference.cache
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterprise.Pages.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterprise.Pages.AssemblyInfoInputs.cache
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterprise.Pages.AssemblyInfo.cs
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterprise.Pages.csproj.CoreCompileInputs.cache
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterprise.Pages.sourcelink.json
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterpri.C48ED738.Up2Date
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterprise.Pages.dll
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\refint\Enterprise.Pages.dll
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\Enterprise.Pages.pdb
+D:\New folder (2)\csharp-automation-framework\src\Enterprise.Pages\obj\Debug\net8.0\ref\Enterprise.Pages.dll
