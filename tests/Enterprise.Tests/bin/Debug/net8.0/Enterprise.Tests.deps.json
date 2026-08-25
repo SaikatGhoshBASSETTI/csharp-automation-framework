@@ -9,11 +9,20 @@
       "Enterprise.Tests/1.0.0": {
         "dependencies": {
           "Enterprise.Pages": "1.0.0",
+          "FluentAssertions": "8.10.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "NUnit": "3.14.0"
         },
         "runtime": {
           "Enterprise.Tests.dll": {}
+        }
+      },
+      "FluentAssertions/8.10.0": {
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "8.10.0.0",
+            "fileVersion": "8.10.0.0"
+          }
         }
       },
       "Microsoft.CodeCoverage/17.8.0": {
@@ -354,6 +363,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentAssertions/8.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yGvv+xp0gHFgGwhQcGoDdKIrhLhPi3zYYWWLLHPMctr+G6PWD7QH8L4wqoa5WRZquPbfSV/cP1MraI7ppAHrWw==",
+      "path": "fluentassertions/8.10.0",
+      "hashPath": "fluentassertions.8.10.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.8.0": {
       "type": "package",

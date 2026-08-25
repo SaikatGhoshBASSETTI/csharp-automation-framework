@@ -107,3 +107,4 @@ D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\n
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\runtimes\linux\native\selenium-manager
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\runtimes\osx\native\selenium-manager
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\runtimes\win\native\selenium-manager.exe
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\FluentAssertions.dll
