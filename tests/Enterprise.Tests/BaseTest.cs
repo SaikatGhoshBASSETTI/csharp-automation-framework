@@ -1,25 +1,29 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using Enterprise.Core;
+using Enterprise.Core.Config;
 
 namespace Enterprise.Tests;
 
 public class BaseTest
 {
-    // Allows derived test classes to easily read the driver instance
     protected IWebDriver Driver => DriverFactory.GetDriver();
+    protected TestSettings Config => ConfigReader.Instance;
 
     [SetUp]
     public void SetUp()
     {
-        // Initializes Chrome for the current thread before each test
-        DriverFactory.CreateDriver(BrowserType.Chrome, isHeadless: false);
+        // Read configuration settings dynamically
+        var browserType = Config.BrowserSettings.Type;
+        var isHeadless = Config.BrowserSettings.Headless;
+        var timeout = Config.ExplicitWaitTimeout;
+
+        DriverFactory.CreateDriver(browserType, isHeadless: false, timeout);
     }
 
     [TearDown]
     public void TearDown()
     {
-        // Safely quits and disposes the driver instance for the current thread
         DriverFactory.QuitDriver();
     }
 }

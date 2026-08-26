@@ -1,50 +1,25 @@
-using OpenQA.Selenium;
+using NUnit.Framework;
+using FluentAssertions;
+using Enterprise.Pages;
 
-namespace Enterprise.Pages;
+namespace Enterprise.Tests;
 
-public class LoginPage : BasePage
+[TestFixture]
+public class LoginTests : BaseTest
 {
-    private readonly By _usernameInput = By.Id("username");
-    private readonly By _passwordInput = By.Id("password");
-    private readonly By _submitButton = By.Id("submit");
-    private readonly By _successHeader = By.ClassName("post-title");
-
-    public LoginPage(IWebDriver driver) : base(driver) { }
-
-    public LoginPage NavigateTo(string url)
+    [Test]
+    public void VerifySuccessfulLogin()
     {
-        Driver.Navigate().GoToUrl(url);
-        return this;
-    }
+        var loginPage = new LoginPage(Driver);
+        
+        loginPage.NavigateTo(Config.BaseUrl);
+        
+        // Pause so you can visually watch Chrome on screen
+        System.Threading.Thread.Sleep(5000);
 
-    public LoginPage EnterUsername(string username)
-    {
-        SendKeys(_usernameInput, username);
-        return this;
-    }
-
-    public LoginPage EnterPassword(string password)
-    {
-        SendKeys(_passwordInput, password);
-        return this;
-    }
-
-    public LoginPage ClickLogin()
-    {
-        Click(_submitButton);
-        return this;
-    }
-
-    // High-level wrapper method returning 'this' for method chaining
-    public LoginPage PerformLogin(string username, string password)
-    {
-        return EnterUsername(username)
-               .EnterPassword(password)
-               .ClickLogin();
-    }
-
-    public string GetSuccessMessage()
-    {
-        return GetText(_successHeader);
+        loginPage.PerformLogin("student", "Password123");
+        
+        string successMessage = loginPage.GetSuccessMessage();
+        successMessage.Should().Be("Logged In Successfully");
     }
 }

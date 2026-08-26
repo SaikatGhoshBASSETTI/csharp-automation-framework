@@ -62,7 +62,7 @@ public static class DriverFactory
     private static IWebDriver CreateEdgeDriver(bool isHeadless)
     {
         var options = new EdgeOptions();
-        if (isHeadless) options.AddArgument("--headless");
+        if (isHeadless) options.AddArgument("--headless=new");
         return new EdgeDriver(options);
     }
 

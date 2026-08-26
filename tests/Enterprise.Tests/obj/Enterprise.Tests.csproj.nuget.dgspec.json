@@ -52,6 +52,18 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.47.0, )"
@@ -177,6 +189,9 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\New folder (2)\\csharp-automation-framework\\src\\Enterprise.Core\\Enterprise.Core.csproj": {
+                "projectPath": "D:\\New folder (2)\\csharp-automation-framework\\src\\Enterprise.Core\\Enterprise.Core.csproj"
+              },
               "D:\\New folder (2)\\csharp-automation-framework\\src\\Enterprise.Pages\\Enterprise.Pages.csproj": {
                 "projectPath": "D:\\New folder (2)\\csharp-automation-framework\\src\\Enterprise.Pages\\Enterprise.Pages.csproj"
               }
@@ -202,7 +217,7 @@
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
-              "version": "[8.10.0, )"
+              "version": "[6.12.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -212,17 +227,9 @@
               "target": "Package",
               "version": "[3.14.0, )"
             },
-            "NUnit.Analyzers": {
-              "target": "Package",
-              "version": "[3.9.0, )"
-            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.5.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[6.0.0, )"
             }
           },
           "imports": [

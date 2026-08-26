@@ -1,10 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "INPuFAHeJ3o=",
+  "dgSpecHash": "c6ffpHaKzkU=",
   "success": true,
   "projectFilePath": "D:\\New folder (2)\\csharp-automation-framework\\src\\Enterprise.Pages\\Enterprise.Pages.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\selenium.webdriver\\4.47.0\\selenium.webdriver.4.47.0.nupkg.sha512"
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.11\\microsoft.extensions.configuration.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.11\\microsoft.extensions.configuration.abstractions.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.11\\microsoft.extensions.configuration.binder.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\10.0.11\\microsoft.extensions.configuration.environmentvariables.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.11\\microsoft.extensions.configuration.fileextensions.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.11\\microsoft.extensions.configuration.json.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.11\\microsoft.extensions.fileproviders.abstractions.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.11\\microsoft.extensions.fileproviders.physical.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.11\\microsoft.extensions.filesystemglobbing.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.11\\microsoft.extensions.primitives.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\selenium.webdriver\\4.47.0\\selenium.webdriver.4.47.0.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.io.pipelines\\10.0.11\\system.io.pipelines.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.text.encodings.web\\10.0.11\\system.text.encodings.web.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.text.json\\10.0.11\\system.text.json.10.0.11.nupkg.sha512"
   ],
   "logs": []
 }
