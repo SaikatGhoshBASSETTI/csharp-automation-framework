@@ -2,6 +2,44 @@
   "version": 4,
   "targets": {
     "net8.0": {
+      "Cucumber.CucumberExpressions/17.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CucumberExpressions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CucumberExpressions.dll": {}
+        }
+      },
+      "Cucumber.HtmlFormatter/22.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Cucumber.Messages": "30.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Cucumber.HtmlFormatter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cucumber.HtmlFormatter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Cucumber.Messages/30.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Cucumber.Messages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cucumber.Messages.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentAssertions/6.12.0": {
         "type": "package",
         "dependencies": {
@@ -16,6 +54,38 @@
           "lib/net6.0/FluentAssertions.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Gherkin/35.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Cucumber.Messages": "29.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Gherkin.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Gherkin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/9.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.CodeCoverage/17.8.0": {
@@ -154,6 +224,22 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/10.0.11": {
@@ -569,6 +655,62 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Reqnroll/3.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Cucumber.CucumberExpressions": "17.1.0",
+          "Cucumber.HtmlFormatter": "22.2.0",
+          "Cucumber.Messages": "30.1.0",
+          "Gherkin": "35.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.6",
+          "Microsoft.Extensions.DependencyModel": "8.0.2",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Channels": "9.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Reqnroll.Utils.dll": {},
+          "lib/netstandard2.0/Reqnroll.dll": {
+            "related": ".ExternalAnnotations.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.Utils.dll": {},
+          "lib/netstandard2.0/Reqnroll.dll": {
+            "related": ".ExternalAnnotations.xml;.xml"
+          }
+        },
+        "build": {
+          "build/Reqnroll.targets": {}
+        }
+      },
+      "Reqnroll.NUnit/3.3.4": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "3.13.1",
+          "Reqnroll": "3.3.4",
+          "Reqnroll.Tools.MsBuild.Generation": "3.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {}
+        },
+        "build": {
+          "build/Reqnroll.NUnit.props": {},
+          "build/Reqnroll.NUnit.targets": {}
+        }
+      },
+      "Reqnroll.Tools.MsBuild.Generation/3.3.4": {
+        "type": "package",
+        "build": {
+          "build/Reqnroll.Tools.MsBuild.Generation.props": {},
+          "build/Reqnroll.Tools.MsBuild.Generation.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Reqnroll.Tools.MsBuild.Generation.props": {}
+        }
+      },
       "Selenium.WebDriver/4.47.0": {
         "type": "package",
         "compile": {
@@ -701,6 +843,22 @@
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
+      "System.Threading.Channels/9.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "Enterprise.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -733,6 +891,48 @@
     }
   },
   "libraries": {
+    "Cucumber.CucumberExpressions/17.1.0": {
+      "sha512": "IZFDLLwrUCKuGDXQzmAWZa+kQFpVmVwWD8wEl0UWGOR83UQfzqg8hZeSSNUOXlW0Kh3vMO6kEm3FpNC4amKMaw==",
+      "type": "package",
+      "path": "cucumber.cucumberexpressions/17.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cucumber-mark-green-128.png",
+        "cucumber.cucumberexpressions.17.1.0.nupkg.sha512",
+        "cucumber.cucumberexpressions.nuspec",
+        "lib/netstandard2.0/CucumberExpressions.dll"
+      ]
+    },
+    "Cucumber.HtmlFormatter/22.2.0": {
+      "sha512": "hlP9GGzRADDKh0/GEt2aWD9G08qEDD4z6TC6iqJt3xH8kiU3iAbg1rOCtorN13zNdaaVxdraHzznWTMT/DnM1g==",
+      "type": "package",
+      "path": "cucumber.htmlformatter/22.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "cucumber-mark-green-128.png",
+        "cucumber.htmlformatter.22.2.0.nupkg.sha512",
+        "cucumber.htmlformatter.nuspec",
+        "lib/netstandard2.0/Cucumber.HtmlFormatter.dll",
+        "lib/netstandard2.0/Cucumber.HtmlFormatter.xml"
+      ]
+    },
+    "Cucumber.Messages/30.1.0": {
+      "sha512": "HDfIzDd7JFDEwiNHpgOHBPEiyVjXQws+CEnVb+Lwiq58jHNA/xYwmTswbqknOxcAejCRFP1de/hHHw+ZuTzV6A==",
+      "type": "package",
+      "path": "cucumber.messages/30.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cucumber-mark-green-128.png",
+        "cucumber.messages.30.1.0.nupkg.sha512",
+        "cucumber.messages.nuspec",
+        "lib/netstandard2.0/Cucumber.Messages.dll",
+        "lib/netstandard2.0/Cucumber.Messages.xml"
+      ]
+    },
     "FluentAssertions/6.12.0": {
       "sha512": "ZXhHT2YwP9lajrwSKbLlFqsmCCvFJMoRSK9t7sImfnCyd0OB3MhgxdoMcVqxbq1iyxD6mD2fiackWmBb7ayiXQ==",
       "type": "package",
@@ -761,6 +961,46 @@
         "lib/netstandard2.1/FluentAssertions.dll",
         "lib/netstandard2.1/FluentAssertions.pdb",
         "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
+    "Gherkin/35.0.0": {
+      "sha512": "ha+QNevQsXEESbzazUceHTCtKOjoBTBa8kLFdKpu6vSEbb3UMt3a55RG78tIoU/C4qzIqX3jQxaIdIcYGO+IWQ==",
+      "type": "package",
+      "path": "gherkin/35.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cucumber-mark-green-128.png",
+        "gherkin.35.0.0.nupkg.sha512",
+        "gherkin.nuspec",
+        "lib/netstandard2.0/Gherkin.dll",
+        "lib/netstandard2.0/Gherkin.xml"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/9.0.6": {
+      "sha512": "82rLw487j5jBXEi2r3WvA/cagOhcRREVRtet6izzjDMY+i392W5oNSN2KCtuIvlTpyMONEUD0MIlGAgDdsvQ/w==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Bcl.AsyncInterfaces.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Bcl.AsyncInterfaces.targets",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.9.0.6.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.CodeCoverage/17.8.0": {
@@ -1013,6 +1253,36 @@
         "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.xml",
         "microsoft.extensions.configuration.json.10.0.11.nupkg.sha512",
         "microsoft.extensions.configuration.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyModel/8.0.2": {
+      "sha512": "mUBDZZRgZrSyFOsJ2qJJ9fXfqd/kXJwf3AiDoqLD9m6TjY5OO/vLNOb9fb4juC0487eq4hcGN/M2Rh/CKS7QYw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencymodel/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyModel.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyModel.targets",
+        "lib/net462/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net462/Microsoft.Extensions.DependencyModel.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyModel.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyModel.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyModel.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
+        "microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1564,6 +1834,146 @@
         "nunit_256.png"
       ]
     },
+    "Reqnroll/3.3.4": {
+      "sha512": "tFFx0xACekjT9F/aFZjQMNTbaxy7zNU4uXFXvU1Eybuko2Rx1RLCAzN+uPDiDxsGB/Nd0wZC0M8Ho5i9xm8Jdg==",
+      "type": "package",
+      "path": "reqnroll/3.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "Cucumber.CucumberExpressions-LICENSE-MIT.txt",
+        "Cucumber.HtmlFormatter-LICENSE-MIT.txt",
+        "Cucumber.Messages-LICENSE-MIT.txt",
+        "Cucumber.React-Components-LICENSE-MIT.txt",
+        "Gherkin-LICENSE-MIT.txt",
+        "README.md",
+        "assets/icon.png",
+        "build/Reqnroll.targets",
+        "lib/netstandard2.0/Reqnroll.ExternalAnnotations.xml",
+        "lib/netstandard2.0/Reqnroll.Utils.dll",
+        "lib/netstandard2.0/Reqnroll.dll",
+        "lib/netstandard2.0/Reqnroll.xml",
+        "reqnroll.3.3.4.nupkg.sha512",
+        "reqnroll.nuspec"
+      ]
+    },
+    "Reqnroll.NUnit/3.3.4": {
+      "sha512": "haIYJgiTdxsX/57772Pv48Gx2O1Fqlaeyd9dhQ3l5e+Ya4NfNWQeACaNfAJ7KpO6gdc7XTzib3dTjYq6KrU1/Q==",
+      "type": "package",
+      "path": "reqnroll.nunit/3.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "assets/icon.png",
+        "build/NUnit.AssemblyHooks.cs",
+        "build/NUnit.AssemblyHooks.vb",
+        "build/Reqnroll.NUnit.props",
+        "build/Reqnroll.NUnit.targets",
+        "build/Reqnroll.TestFrameworkAdapter.props",
+        "build/Reqnroll.TestFrameworkAdapter.targets",
+        "build/netstandard2.0/Reqnroll.NUnit.Generator.ReqnrollPlugin.deps.json",
+        "build/netstandard2.0/Reqnroll.NUnit.Generator.ReqnrollPlugin.dll",
+        "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll",
+        "reqnroll.nunit.3.3.4.nupkg.sha512",
+        "reqnroll.nunit.nuspec"
+      ]
+    },
+    "Reqnroll.Tools.MsBuild.Generation/3.3.4": {
+      "sha512": "atTwejJRcKgUcJCofp4uSPKNXBav6ZITHtuD6dhByg1ubyVJirjz5TkcVCR9oFnHAEbZvOdd4cYCJNPO9rSAsQ==",
+      "type": "package",
+      "path": "reqnroll.tools.msbuild.generation/3.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "assets/icon.png",
+        "build/CPS/Buildsystem/CpsExtension.DesignTime.targets",
+        "build/CPS/Buildsystem/Rules/FeatureFileType.xaml",
+        "build/CPS/Buildsystem/Rules/ProjectItemsSchema.xaml",
+        "build/Reqnroll.Tools.MsBuild.Generation.props",
+        "build/Reqnroll.Tools.MsBuild.Generation.targets",
+        "build/net462/Cucumber.HtmlFormatter.dll",
+        "build/net462/Cucumber.Messages.dll",
+        "build/net462/CucumberExpressions.dll",
+        "build/net462/Gherkin.dll",
+        "build/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+        "build/net462/Microsoft.Extensions.DependencyModel.dll",
+        "build/net462/Microsoft.NET.StringTools.dll",
+        "build/net462/Microsoft.Win32.Primitives.dll",
+        "build/net462/Microsoft.Win32.Registry.dll",
+        "build/net462/Reqnroll.Generator.dll",
+        "build/net462/Reqnroll.Parser.dll",
+        "build/net462/Reqnroll.Tools.MsBuild.Generation.dll",
+        "build/net462/Reqnroll.Utils.dll",
+        "build/net462/Reqnroll.dll",
+        "build/net462/Reqnroll.xml",
+        "build/net462/System.Buffers.dll",
+        "build/net462/System.CodeDom.dll",
+        "build/net462/System.Collections.Immutable.dll",
+        "build/net462/System.Composition.AttributedModel.dll",
+        "build/net462/System.Composition.Convention.dll",
+        "build/net462/System.Composition.Hosting.dll",
+        "build/net462/System.Composition.Runtime.dll",
+        "build/net462/System.Composition.TypedParts.dll",
+        "build/net462/System.Configuration.ConfigurationManager.dll",
+        "build/net462/System.Memory.dll",
+        "build/net462/System.Numerics.Vectors.dll",
+        "build/net462/System.Reflection.Metadata.dll",
+        "build/net462/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/net462/System.Security.AccessControl.dll",
+        "build/net462/System.Security.Principal.Windows.dll",
+        "build/net462/System.Text.Encoding.CodePages.dll",
+        "build/net462/System.Text.Encodings.Web.dll",
+        "build/net462/System.Text.Json.dll",
+        "build/net462/System.Threading.Channels.dll",
+        "build/net462/System.Threading.Tasks.Dataflow.dll",
+        "build/net462/System.Threading.Tasks.Extensions.dll",
+        "build/net462/System.ValueTuple.dll",
+        "build/netstandard2.0/Cucumber.HtmlFormatter.dll",
+        "build/netstandard2.0/Cucumber.Messages.dll",
+        "build/netstandard2.0/CucumberExpressions.dll",
+        "build/netstandard2.0/Gherkin.dll",
+        "build/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "build/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+        "build/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "build/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "build/netstandard2.0/Reqnroll.Generator.dll",
+        "build/netstandard2.0/Reqnroll.Parser.dll",
+        "build/netstandard2.0/Reqnroll.Tools.MsBuild.Generation.deps.json",
+        "build/netstandard2.0/Reqnroll.Tools.MsBuild.Generation.dll",
+        "build/netstandard2.0/Reqnroll.Utils.dll",
+        "build/netstandard2.0/Reqnroll.dll",
+        "build/netstandard2.0/Reqnroll.xml",
+        "build/netstandard2.0/System.Buffers.dll",
+        "build/netstandard2.0/System.CodeDom.dll",
+        "build/netstandard2.0/System.Collections.Immutable.dll",
+        "build/netstandard2.0/System.ComponentModel.Composition.dll",
+        "build/netstandard2.0/System.Composition.AttributedModel.dll",
+        "build/netstandard2.0/System.Composition.Convention.dll",
+        "build/netstandard2.0/System.Composition.Hosting.dll",
+        "build/netstandard2.0/System.Composition.Runtime.dll",
+        "build/netstandard2.0/System.Composition.TypedParts.dll",
+        "build/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "build/netstandard2.0/System.Memory.dll",
+        "build/netstandard2.0/System.Numerics.Vectors.dll",
+        "build/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "build/netstandard2.0/System.Reflection.Emit.dll",
+        "build/netstandard2.0/System.Reflection.Metadata.dll",
+        "build/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/netstandard2.0/System.Security.AccessControl.dll",
+        "build/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "build/netstandard2.0/System.Security.Principal.Windows.dll",
+        "build/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "build/netstandard2.0/System.Text.Encodings.Web.dll",
+        "build/netstandard2.0/System.Text.Json.dll",
+        "build/netstandard2.0/System.Threading.Channels.dll",
+        "build/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "build/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "buildMultiTargeting/Reqnroll.Tools.MsBuild.Generation.props",
+        "reqnroll.tools.msbuild.generation.3.3.4.nupkg.sha512",
+        "reqnroll.tools.msbuild.generation.nuspec"
+      ]
+    },
     "Selenium.WebDriver/4.47.0": {
       "sha512": "P6tWCztrMNXpA4av0EDEwpw+jPbefH7BtdSU05aAldkCUrZF537uBTkHj+A3EcgpbcGGr6uj61UDy8GO6APhoQ==",
       "type": "package",
@@ -1811,6 +2221,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Threading.Channels/9.0.6": {
+      "sha512": "2MaNJVkG2yJiXQbZrrcYoJ55ehV+aX0zqR6rWJkO/Qj7jTsArWthrQ7iWywUf/sE5ylJWX/iLH2kKfwSRdkWsA==",
+      "type": "package",
+      "path": "system.threading.channels/9.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.Channels.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "lib/net462/System.Threading.Channels.dll",
+        "lib/net462/System.Threading.Channels.xml",
+        "lib/net8.0/System.Threading.Channels.dll",
+        "lib/net8.0/System.Threading.Channels.xml",
+        "lib/net9.0/System.Threading.Channels.dll",
+        "lib/net9.0/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.9.0.6.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Enterprise.Core/1.0.0": {
       "type": "project",
       "path": "../../src/Enterprise.Core/Enterprise.Core.csproj",
@@ -1829,7 +2269,8 @@
       "FluentAssertions >= 6.12.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "NUnit >= 3.14.0",
-      "NUnit3TestAdapter >= 4.5.0"
+      "NUnit3TestAdapter >= 4.5.0",
+      "Reqnroll.NUnit >= 3.3.4"
     ]
   },
   "packageFolders": {
@@ -1906,6 +2347,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.5.0, )"
+          },
+          "Reqnroll.NUnit": {
+            "target": "Package",
+            "version": "[3.3.4, )"
           }
         },
         "imports": [

@@ -12,10 +12,38 @@
           "Enterprise.Pages": "1.0.0",
           "FluentAssertions": "6.12.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
-          "NUnit": "3.14.0"
+          "NUnit": "3.14.0",
+          "Reqnroll.NUnit": "3.3.4"
         },
         "runtime": {
           "Enterprise.Tests.dll": {}
+        }
+      },
+      "Cucumber.CucumberExpressions/17.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/CucumberExpressions.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.0.0"
+          }
+        }
+      },
+      "Cucumber.HtmlFormatter/22.2.0": {
+        "dependencies": {
+          "Cucumber.Messages": "30.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cucumber.HtmlFormatter.dll": {
+            "assemblyVersion": "22.2.0.0",
+            "fileVersion": "22.2.0.0"
+          }
+        }
+      },
+      "Cucumber.Messages/30.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Cucumber.Messages.dll": {
+            "assemblyVersion": "30.1.0.0",
+            "fileVersion": "30.1.0.0"
+          }
         }
       },
       "FluentAssertions/6.12.0": {
@@ -26,6 +54,25 @@
           "lib/net6.0/FluentAssertions.dll": {
             "assemblyVersion": "6.12.0.0",
             "fileVersion": "6.12.0.0"
+          }
+        }
+      },
+      "Gherkin/35.0.0": {
+        "dependencies": {
+          "Cucumber.Messages": "30.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Gherkin.dll": {
+            "assemblyVersion": "35.0.0.0",
+            "fileVersion": "35.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/9.0.6": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "9.0.0.6",
+            "fileVersion": "9.0.625.26613"
           }
         }
       },
@@ -111,6 +158,14 @@
           "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.1126.37416"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "8.0.0.2",
+            "fileVersion": "8.0.1024.46610"
           }
         }
       },
@@ -430,6 +485,40 @@
           }
         }
       },
+      "Reqnroll/3.3.4": {
+        "dependencies": {
+          "Cucumber.CucumberExpressions": "17.1.0",
+          "Cucumber.HtmlFormatter": "22.2.0",
+          "Cucumber.Messages": "30.1.0",
+          "Gherkin": "35.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.6",
+          "Microsoft.Extensions.DependencyModel": "8.0.2",
+          "System.Text.Json": "10.0.11",
+          "System.Threading.Channels": "9.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.Utils.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "lib/netstandard2.0/Reqnroll.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Reqnroll.NUnit/3.3.4": {
+        "dependencies": {
+          "NUnit": "3.14.0",
+          "Reqnroll": "3.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
       "Selenium.WebDriver/4.47.0": {
         "runtime": {
           "lib/net8.0/Selenium.WebDriver.dll": {
@@ -518,6 +607,14 @@
           }
         }
       },
+      "System.Threading.Channels/9.0.6": {
+        "runtime": {
+          "lib/net8.0/System.Threading.Channels.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
       "Enterprise.Core/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "10.0.11",
@@ -551,12 +648,47 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Cucumber.CucumberExpressions/17.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IZFDLLwrUCKuGDXQzmAWZa+kQFpVmVwWD8wEl0UWGOR83UQfzqg8hZeSSNUOXlW0Kh3vMO6kEm3FpNC4amKMaw==",
+      "path": "cucumber.cucumberexpressions/17.1.0",
+      "hashPath": "cucumber.cucumberexpressions.17.1.0.nupkg.sha512"
+    },
+    "Cucumber.HtmlFormatter/22.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hlP9GGzRADDKh0/GEt2aWD9G08qEDD4z6TC6iqJt3xH8kiU3iAbg1rOCtorN13zNdaaVxdraHzznWTMT/DnM1g==",
+      "path": "cucumber.htmlformatter/22.2.0",
+      "hashPath": "cucumber.htmlformatter.22.2.0.nupkg.sha512"
+    },
+    "Cucumber.Messages/30.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HDfIzDd7JFDEwiNHpgOHBPEiyVjXQws+CEnVb+Lwiq58jHNA/xYwmTswbqknOxcAejCRFP1de/hHHw+ZuTzV6A==",
+      "path": "cucumber.messages/30.1.0",
+      "hashPath": "cucumber.messages.30.1.0.nupkg.sha512"
+    },
     "FluentAssertions/6.12.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ZXhHT2YwP9lajrwSKbLlFqsmCCvFJMoRSK9t7sImfnCyd0OB3MhgxdoMcVqxbq1iyxD6mD2fiackWmBb7ayiXQ==",
       "path": "fluentassertions/6.12.0",
       "hashPath": "fluentassertions.6.12.0.nupkg.sha512"
+    },
+    "Gherkin/35.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ha+QNevQsXEESbzazUceHTCtKOjoBTBa8kLFdKpu6vSEbb3UMt3a55RG78tIoU/C4qzIqX3jQxaIdIcYGO+IWQ==",
+      "path": "gherkin/35.0.0",
+      "hashPath": "gherkin.35.0.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-82rLw487j5jBXEi2r3WvA/cagOhcRREVRtet6izzjDMY+i392W5oNSN2KCtuIvlTpyMONEUD0MIlGAgDdsvQ/w==",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.6",
+      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.6.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.8.0": {
       "type": "package",
@@ -606,6 +738,13 @@
       "sha512": "sha512-nSPrT8U/cNoB4coqkmnanAMK9PsL7lsjG+LLUKEwHRFwS6E78b8S1wdv/y88EOxBhasWov1rLd7RTHmmsYPOLg==",
       "path": "microsoft.extensions.configuration.json/10.0.11",
       "hashPath": "microsoft.extensions.configuration.json.10.0.11.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mUBDZZRgZrSyFOsJ2qJJ9fXfqd/kXJwf3AiDoqLD9m6TjY5OO/vLNOb9fb4juC0487eq4hcGN/M2Rh/CKS7QYw==",
+      "path": "microsoft.extensions.dependencymodel/8.0.2",
+      "hashPath": "microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Abstractions/10.0.11": {
       "type": "package",
@@ -677,6 +816,20 @@
       "path": "nunit/3.14.0",
       "hashPath": "nunit.3.14.0.nupkg.sha512"
     },
+    "Reqnroll/3.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tFFx0xACekjT9F/aFZjQMNTbaxy7zNU4uXFXvU1Eybuko2Rx1RLCAzN+uPDiDxsGB/Nd0wZC0M8Ho5i9xm8Jdg==",
+      "path": "reqnroll/3.3.4",
+      "hashPath": "reqnroll.3.3.4.nupkg.sha512"
+    },
+    "Reqnroll.NUnit/3.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-haIYJgiTdxsX/57772Pv48Gx2O1Fqlaeyd9dhQ3l5e+Ya4NfNWQeACaNfAJ7KpO6gdc7XTzib3dTjYq6KrU1/Q==",
+      "path": "reqnroll.nunit/3.3.4",
+      "hashPath": "reqnroll.nunit.3.3.4.nupkg.sha512"
+    },
     "Selenium.WebDriver/4.47.0": {
       "type": "package",
       "serviceable": true,
@@ -718,6 +871,13 @@
       "sha512": "sha512-X2rXQy7g8KEUvWVbAz6vOk6byI1eMgmzFeXbKxq4BfZCfFy5S91K+K+hd4ZBlSp0wL1Y8FyGRXs6+hvABTjwQw==",
       "path": "system.text.json/10.0.11",
       "hashPath": "system.text.json.10.0.11.nupkg.sha512"
+    },
+    "System.Threading.Channels/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2MaNJVkG2yJiXQbZrrcYoJ55ehV+aX0zqR6rWJkO/Qj7jTsArWthrQ7iWywUf/sE5ylJWX/iLH2kKfwSRdkWsA==",
+      "path": "system.threading.channels/9.0.6",
+      "hashPath": "system.threading.channels.9.0.6.nupkg.sha512"
     },
     "Enterprise.Core/1.0.0": {
       "type": "project",

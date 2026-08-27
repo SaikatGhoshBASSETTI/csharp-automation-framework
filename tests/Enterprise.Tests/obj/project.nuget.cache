@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "amSLLXpI+Ww=",
+  "dgSpecHash": "+FhHZiACLQ4=",
   "success": true,
   "projectFilePath": "D:\\New folder (2)\\csharp-automation-framework\\tests\\Enterprise.Tests\\Enterprise.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\cucumber.cucumberexpressions\\17.1.0\\cucumber.cucumberexpressions.17.1.0.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\cucumber.htmlformatter\\22.2.0\\cucumber.htmlformatter.22.2.0.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\cucumber.messages\\30.1.0\\cucumber.messages.30.1.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\gherkin\\35.0.0\\gherkin.35.0.0.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.6\\microsoft.bcl.asyncinterfaces.9.0.6.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.11\\microsoft.extensions.configuration.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.11\\microsoft.extensions.configuration.abstractions.10.0.11.nupkg.sha512",
@@ -12,6 +17,7 @@
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\10.0.11\\microsoft.extensions.configuration.environmentvariables.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.11\\microsoft.extensions.configuration.fileextensions.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.11\\microsoft.extensions.configuration.json.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.2\\microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.11\\microsoft.extensions.fileproviders.abstractions.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.11\\microsoft.extensions.fileproviders.physical.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.11\\microsoft.extensions.filesystemglobbing.10.0.11.nupkg.sha512",
@@ -25,13 +31,17 @@
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\reqnroll\\3.3.4\\reqnroll.3.3.4.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\reqnroll.nunit\\3.3.4\\reqnroll.nunit.3.3.4.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\3.3.4\\reqnroll.tools.msbuild.generation.3.3.4.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\selenium.webdriver\\4.47.0\\selenium.webdriver.4.47.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.io.pipelines\\10.0.11\\system.io.pipelines.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.text.encodings.web\\10.0.11\\system.text.encodings.web.10.0.11.nupkg.sha512",
-    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.text.json\\10.0.11\\system.text.json.10.0.11.nupkg.sha512"
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.text.json\\10.0.11\\system.text.json.10.0.11.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.threading.channels\\9.0.6\\system.threading.channels.9.0.6.nupkg.sha512"
   ],
   "logs": []
 }

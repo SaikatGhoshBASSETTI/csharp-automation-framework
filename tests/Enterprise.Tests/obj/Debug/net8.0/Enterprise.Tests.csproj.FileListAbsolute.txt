@@ -125,3 +125,15 @@ D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\obj\Debug\n
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\obj\Debug\net8.0\Enterprise.Tests.pdb
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\obj\Debug\net8.0\Enterprise.Tests.genruntimeconfig.cache
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\obj\Debug\net8.0\ref\Enterprise.Tests.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\CucumberExpressions.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Cucumber.HtmlFormatter.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Cucumber.Messages.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Gherkin.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Reqnroll.Utils.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Reqnroll.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Reqnroll.NUnit.ReqnrollPlugin.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\System.Threading.Channels.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\obj\Debug\net8.0\Enterprise.Tests.ProcessFeatureFileInputs.cache
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\obj\Debug\net8.0\NUnit.AssemblyHooks.Enterprise_Tests.cs

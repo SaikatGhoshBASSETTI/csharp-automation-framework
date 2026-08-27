@@ -230,6 +230,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[3.3.4, )"
             }
           },
           "imports": [
