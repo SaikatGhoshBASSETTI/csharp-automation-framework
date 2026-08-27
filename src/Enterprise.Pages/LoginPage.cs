@@ -1,38 +1,55 @@
 using OpenQA.Selenium;
+using Enterprise.Core.Logging;
 
 namespace Enterprise.Pages;
 
-// Inherit from BasePage to reuse driver interactions and dynamic waits
 public class LoginPage : BasePage
 {
-    // 1. Private Locators: Strictly encapsulated so test classes cannot manipulate raw selectors
     private readonly By _usernameInput = By.Id("username");
     private readonly By _passwordInput = By.Id("password");
     private readonly By _submitButton = By.Id("submit");
     private readonly By _successHeader = By.ClassName("post-title");
 
-    // 2. Constructor: Passes the thread-isolated driver instance up to BasePage
-    public LoginPage(IWebDriver driver) : base(driver)
-    {
-    }
+    public LoginPage(IWebDriver driver) : base(driver) { }
 
-    // 3. Encapsulated Action Methods
-    public void NavigateTo(string url)
+    public LoginPage NavigateTo(string url)
     {
+        LoggerService.Information($"Navigating to URL: {url}");
         Driver.Navigate().GoToUrl(url);
+        return this;
     }
 
-    public void PerformLogin(string username, string password)
+    public LoginPage EnterUsername(string username)
     {
-        // Calls SendKeys and Click inherited from BasePage, which trigger automatic dynamic waits
+        LoggerService.Information($"Entering username: {username}");
         SendKeys(_usernameInput, username);
+        return this;
+    }
+
+    public LoginPage EnterPassword(string password)
+    {
+        LoggerService.Information("Entering password...");
         SendKeys(_passwordInput, password);
+        return this;
+    }
+
+    public LoginPage ClickLogin()
+    {
+        LoggerService.Information("Clicking on Submit button.");
         Click(_submitButton);
+        return this;
+    }
+
+    public LoginPage PerformLogin(string username, string password)
+    {
+        return EnterUsername(username)
+               .EnterPassword(password)
+               .ClickLogin();
     }
 
     public string GetSuccessMessage()
     {
-        // Returns header text after waiting for visibility
+        LoggerService.Information("Fetching success message header text.");
         return GetText(_successHeader);
     }
 }

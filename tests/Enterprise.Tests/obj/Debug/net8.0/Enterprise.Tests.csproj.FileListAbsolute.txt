@@ -137,3 +137,6 @@ D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\n
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\System.Threading.Channels.dll
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\obj\Debug\net8.0\Enterprise.Tests.ProcessFeatureFileInputs.cache
 D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\obj\Debug\net8.0\NUnit.AssemblyHooks.Enterprise_Tests.cs
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Serilog.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\New folder (2)\csharp-automation-framework\tests\Enterprise.Tests\bin\Debug\net8.0\Serilog.Sinks.File.dll

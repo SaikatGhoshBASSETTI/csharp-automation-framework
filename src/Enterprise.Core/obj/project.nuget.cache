@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DzxjXVx+CRo=",
+  "dgSpecHash": "a0sreH4W9Ng=",
   "success": true,
   "projectFilePath": "D:\\New folder (2)\\csharp-automation-framework\\src\\Enterprise.Core\\Enterprise.Core.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,9 @@
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.11\\microsoft.extensions.filesystemglobbing.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.11\\microsoft.extensions.primitives.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\selenium.webdriver\\4.47.0\\selenium.webdriver.4.47.0.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\serilog\\4.4.0\\serilog.4.4.0.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\serilog.sinks.console\\6.1.1\\serilog.sinks.console.6.1.1.nupkg.sha512",
+    "C:\\Users\\saikat.ghosh\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.io.pipelines\\10.0.11\\system.io.pipelines.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.text.encodings.web\\10.0.11\\system.text.encodings.web.10.0.11.nupkg.sha512",
     "C:\\Users\\saikat.ghosh\\.nuget\\packages\\system.text.json\\10.0.11\\system.text.json.10.0.11.nupkg.sha512"
