@@ -12,3 +12,15 @@
 [2026-08-27 16:16:28.054 +05:30] [INF] [] Entering password...
 [2026-08-27 16:16:28.210 +05:30] [INF] [] Clicking on Submit button.
 [2026-08-27 16:16:30.062 +05:30] [INF] [] Fetching success message header text.
+[2026-08-27 16:31:54.717 +05:30] [INF] [] === Scenario Started: Successful login with valid credentials ===
+[2026-08-27 16:31:57.082 +05:30] [INF] [] Navigating to URL: https://practicetestautomation.com/practice-test-login/
+[2026-08-27 16:31:57.091 +05:30] [INF] [] Navigating to URL: https://practicetestautomation.com/practice-test-login/
+[2026-08-27 16:32:02.087 +05:30] [INF] [] Entering username: student
+[2026-08-27 16:32:02.286 +05:30] [INF] [] Entering password...
+[2026-08-27 16:32:02.445 +05:30] [INF] [] Clicking on Submit button.
+[2026-08-27 16:32:03.603 +05:30] [INF] [] Fetching success message header text.
+[2026-08-27 16:32:03.689 +05:30] [INF] [] Scenario Passed: Successful login with valid credentials
+[2026-08-27 16:32:07.156 +05:30] [INF] [] Entering username: student
+[2026-08-27 16:32:07.264 +05:30] [INF] [] Entering password...
+[2026-08-27 16:32:07.429 +05:30] [INF] [] Clicking on Submit button.
+[2026-08-27 16:32:09.247 +05:30] [INF] [] Fetching success message header text.
